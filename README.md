@@ -17,6 +17,19 @@ This project provides a simple **multi-agent driving simulation environment** bu
 - Observations: Position, velocity, and angle (normalized)
 - Reward: Encourages movement, penalizes boundary collisions
 
+## 📷 Demo
+
+🧾 Requirements
+Python 3.8+
+
+Gymnasium
+
+Pygame
+
+NumPy
+
+See requirements.txt for exact versions.
+
 ## 🚀 Installation
 
 1. Clone the repository:
@@ -25,23 +38,23 @@ This project provides a simple **multi-agent driving simulation environment** bu
 git clone https://github.com/your-username/multi-agent-driving-env.git
 cd multi-agent-driving-env
 
-Create a virtual environment (optional but recommended):
+2. Create a virtual environment (optional but recommended):
 
 bash
 Copy
 Edit
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies:
+
+3. Install dependencies:
 
 bash
 Copy
 Edit
 pip install -r requirements.txt
-🧠 Usage
+
+ ## 🧠 Usage
 python
-Copy
-Edit
 import gymnasium as gym
 from multi_agent_env import MultiAgentDrivingEnv
 
@@ -56,26 +69,3 @@ for _ in range(200):
         break
 
 env.close()
-Save your environment in a Python file named multi_agent_env.py for the import above to work.
-
-📷 Demo
-
-🧾 Requirements
-Python 3.8+
-
-Gymnasium
-
-Pygame
-
-NumPy
-
-See requirements.txt for exact versions.
-
-🛠 TODO
-Add obstacles or checkpoints
-
-Implement custom reward shaping
-
-Support agent-agent interactions/collisions
-
-Add pretrained RL agent examples
