@@ -1,0 +1,21 @@
+# Core packages
+gymnasium==0.29.1
+pygame==2.5.2
+numpy==1.24.4
+
+# Optional but helpful for development and visualization
+matplotlib==3.7.1
+jupyterlab==4.0.6
+notebook==7.0.6
+ipykernel==6.29.0
+
+# Linting and formatting (for code quality)
+black==23.11.0
+flake8==6.1.0
+
+# Setuptools (for setup.py)
+setuptools==68.2.2
+wheel==0.41.2
+
+# Tools for packaging and virtual environments (optional but recommended)
+pipenv==2023.10.24
